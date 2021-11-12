@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+}
+
+nav {
+    height: 60px;
+    width: 100%;
+    background-color: darkslategrey;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    float: right;
+    margin-right: 75px;
+
+}
+.container{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightsteelblue;
+
+}
+
+h2{
+    color: white;
+    font-size: 30px;
+    margin-top: -2px;
+    font-family: cursive;
+
+}
+
+h1{
+    font-size: 45px;
+    font-family: URW Chancery L, cursive;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: lightsteelblue;
+    color: white;
+
+
+}
+
+
+.new{
+    font-family: Noto Sans Palmyrene;
+    font-size: 25px;
+    margin: 0;
+
+}
+.children1{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+
+
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+
+    margin-right: 120px;
+
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+.paragraph {
+    width: 100%;
+    height: 125px;
+    background-color: darkslategrey;
+    margin-bottom: 50px;
+
+}
+p{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-style: italic;
+}
+
+@media screen and  (max-width: 800px) {
+    .menuIcon {
+        height: 100%;
+        width: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        position: absolute;
+        right: 0;
+        cursor: pointer;
+    }
+
+    .bar {
+        height: 6px;
+        width: 80%;
+        background-color: white;
+    }
+
+    .menu {
+        position: fixed;
+        top: 60px;
+        right: -150px;
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        color: white;
+        background-color: blue;
+        min-height: 150px;
+
+    }
+
+    .anotherA {
+        text-decoration: none;
+        color: white;
+        margin: 5px;
+    }
+}
+@media screen and (max-width: 800px){
+    .bigLink{
+        display: none;
+    }
+    .children1, .paragraph{
+        flex-wrap: wrap;
+
+    }
+    p{
+        font-size: 17px;
+        text-align: center;
+
+    }
+
+    .hNew{
+        font-size: 25px;
+    }
+
+    img{
+        border-radius: 0;
+    }
+    .sale{
+        font-size: 20px;
+    }
+}
+a:hover {
+    text-decoration: underline;
+}
+ .logButton{
+
+     height: 100%;
+     width: 70px;
+     top: 2px;
+
+ }
+
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+
+.box2{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+
+
+}
