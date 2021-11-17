@@ -100,12 +100,6 @@ p{
     font-style: italic;
 }
 
-@media screen and (min-width: 800px) {
-    nav{
-
-    }
-}
-
 
 @media screen and  (max-width: 800px) {
     .menuIcon {
@@ -151,6 +145,7 @@ p{
     .bigLink{
         display: none;
     }
+
     .children1, .paragraph{
         flex-wrap: wrap;
 
@@ -171,6 +166,12 @@ p{
     .sale{
         font-size: 20px;
     }
+}
+@media screen and (min-width: 800px) {
+    .menu{
+        display: none;
+    }
+
 }
 a:hover {
     text-decoration: underline;
@@ -200,10 +201,15 @@ h3 {
 
 }
 
-.products{
+.productsH1{
    margin-top: 100px;
+
 }
 
+.products{
+    margin-top: 60px;
+    padding-left: 300px;
+}
 .paraA{
     margin: 0;
     float: none;
@@ -211,23 +217,26 @@ h3 {
 
 }
 
+
 #picOne, #picTwo, #picThree, #picFour{
-    height: 200px;
-    width: 200px;
-    padding-right: 50px;
-    padding-left: 80px;
+    height: 140px;
+    width: 140px;
+    padding-left: 30px;
     border-radius: 0;
 
 }
-.boxX{
-    background-color: lightblue;
-    height: 250px;
-    width: 500px;
-    margin: 70px;
-}
-.children2{
-    display: flex;
-    justify-content: center;
+.block {
+    height: 220px;
+    width: 200px;
+    background-color: darkslategrey;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    display: inline-block;
 
+}
+.productsP{
+    font-size: 19px;
+    text-align: center;
 }
 
