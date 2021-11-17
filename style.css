@@ -240,3 +240,15 @@ h3 {
     text-align: center;
 }
 
+.contactH{
+    font-size: 70px;
+    margin-top: 65px;
+}
+.paraForContact{
+    font-style: normal;
+}
+.aboutPic{
+    border-radius: 0;
+    margin-top: 100px;
+    margin-left: 200px;
+}
