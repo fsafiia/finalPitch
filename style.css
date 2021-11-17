@@ -8,6 +8,7 @@ nav {
     background-color: darkslategrey;
     position: fixed;
     top: 0;
+
     left: 0;
 }
 a {
@@ -25,6 +26,7 @@ a {
     justify-content: center;
     align-items: center;
     background-color: lightsteelblue;
+    margin-top: 55px;
 
 }
 
@@ -97,6 +99,13 @@ p{
     color: white;
     font-style: italic;
 }
+
+@media screen and (min-width: 800px) {
+    nav{
+
+    }
+}
+
 
 @media screen and  (max-width: 800px) {
     .menuIcon {
@@ -189,5 +198,36 @@ h3 {
     width: 100%;
     margin-top: 20px;
 
+}
+
+.products{
+   margin-top: 100px;
+}
+
+.paraA{
+    margin: 0;
+    float: none;
+    color: darkgrey;
 
 }
+
+#picOne, #picTwo, #picThree, #picFour{
+    height: 200px;
+    width: 200px;
+    padding-right: 50px;
+    padding-left: 80px;
+    border-radius: 0;
+
+}
+.boxX{
+    background-color: lightblue;
+    height: 250px;
+    width: 500px;
+    margin: 70px;
+}
+.children2{
+    display: flex;
+    justify-content: center;
+
+}
+
