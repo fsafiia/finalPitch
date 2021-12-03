@@ -252,3 +252,36 @@ h3 {
     margin-top: 100px;
     margin-left: 200px;
 }
+
+
+.contactEmail{
+   margin-left: 600px;
+   display: flex;
+    font-size: 25px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.complainBox{
+ margin-left: 640px;
+}
+
+.complainSubmit{
+    margin-left: 680px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 800px){
+    .contactEmail{
+        font-size: 20px;
+        margin-left: 100px;
+    }
+    .complainSubmit{
+        margin-left: 180px;
+        font-size: 10px;
+    }
+
+    .complainBox{
+        margin-left: 140px;
+    }
+    }

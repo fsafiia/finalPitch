@@ -10,3 +10,4 @@ document.body.querySelector(".menuIcon").addEventListener("click", function() {
     }
 
 });
+
